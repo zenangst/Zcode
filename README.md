@@ -2,15 +2,15 @@
 <img src="https://raw.githubusercontent.com/zenangst/Xcode-Launcher/master/icon.png" align="right">
 Xcode-Launcher is a simple Apple script that helps you launch and activate Xcode 6.3.2 in El Capitan Developer Preview 2.
 
-## How it works
+### How it works
 
 It's simple, it just check if the Xcode process is running, if so; then activate the application. If Xcode isn't running, then launch it via the terminal workaround.
 
-## Install
+### Install
 
 Clone or download the repository and drag the Xcode-Launcher into your Applications folder and/or Dock. Then double click it and you're ready to go.
 
-## Source
+### Source
 
 ```applescript
 on is_running(appName)
