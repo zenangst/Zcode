@@ -27,7 +27,7 @@ else
 end if
 ```
 
-## Contribute
+### Contribute
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
@@ -35,10 +35,10 @@ end if
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create pull request
 
-## Who made this?
+### Who made this?
 
 - Christoffer Winterkvist ([@zenangst](https://twitter.com/zenangst))
 
-## Thanks
+### Thanks
 
 A big shout-out to [Sash Zats](https://twitter.com/zats), who made the initial [Xcode-Launcher](https://twitter.com/zats/status/613464620997570560) on which this is based.
