@@ -4,7 +4,7 @@ Xcode-Launcher is a simple Apple script that helps you launch and activate Xcode
 
 ### How it works
 
-It's simple, it just check if the Xcode process is running, if so; then activate the application. If Xcode isn't running, then launch it via the terminal workaround.
+It's simple, it just checks if the Xcode process is running, if so; then it activates the application. However, if Xcode isn't running, then it launches Xcode via the terminal workaround.
 
 ### Install
 
