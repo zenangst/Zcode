@@ -1,5 +1,5 @@
 # Xcode-Launcher
-<img src="https://raw.githubusercontent.com/zenangst/Xcode-Launcher/master/icon.png" align="right">
+<img src="https://raw.githubusercontent.com/zenangst/Xcode-Launcher/master/Images/icon_v2.png" align="right">
 Xcode-Launcher is a simple Apple script that helps you launch and activate Xcode 6.3.2 in El Capitan Developer Preview 2.
 
 ### How it works
