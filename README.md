@@ -1,4 +1,5 @@
-# Xcode-Launcher
+# Zcode
+## The missing Xcode launcher
 <img src="https://raw.githubusercontent.com/zenangst/Xcode-Launcher/master/Images/icon_v3@2x.png" align="right">
 Zcode is a simple OS X application that helps you launch, activate and even open files from the Finder in Xcode 6.4 in El Capitan Developer Preview 2.
 
