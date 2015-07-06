@@ -23,19 +23,19 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         return true
     }
 
-    func application(sender: NSApplication, openFiles filenames: [AnyObject]) {
+    func application(sender: NSApplication, openFiles filenames: [String]) {
         let task = NSTask()
         task.launchPath = "/usr/bin/osascript"
-        for file in filenames as! [String] {
+        for file in filenames {
             let appleScript = "tell application \"Xcode\"\n open \"\(file)\"\n\nend"
             task.arguments = ["-e", appleScript]
             task.launch()
         }
         activateXcode()
     }
-    
+
     func activateOrOpenXcode() {
-        let applications = NSWorkspace.sharedWorkspace().runningApplications as! [NSRunningApplication]
+        let applications = NSWorkspace.sharedWorkspace().runningApplications
         let application = applications.filter { $0.localizedName == "Xcode" }.last
 
         if application != nil {
